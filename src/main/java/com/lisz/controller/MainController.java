@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
 	@GetMapping("/test")
 	public String test() {
-		return "test, haha,!update to show LB";
+		return "test, haha,!update to show LB！update";
 	}
 }
